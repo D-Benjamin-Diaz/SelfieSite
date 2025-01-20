@@ -1,0 +1,30 @@
+/* COLOR SCHEME: Cherry Cheesecake */
+
+header {
+  color : #F6E497;
+  background-color : #B9121B;
+}
+
+nav{
+  color : #4C1B1B;
+  background-color : #F6E497
+}
+
+main {
+  color : #4C1B1B;
+  background-color : #FCFAE1
+}
+
+footer{
+  color:#F6E497;
+background-color:#B9121B
+}
+
+.details{
+  color:#FCFAE1;
+  background-color:#BD8D46
+}
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}
