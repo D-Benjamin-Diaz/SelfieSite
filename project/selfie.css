@@ -3,6 +3,9 @@
 header {
   color: #F6E497;
   background-color: #B9121B;
+  background-image: url(Header.png);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 nav {
