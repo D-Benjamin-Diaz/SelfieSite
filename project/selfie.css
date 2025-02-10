@@ -8,6 +8,10 @@
 
 }
 
+#me{
+  float:right;
+}
+
 header {
   color: #F6E497;
   background-color: #B9121B;
@@ -58,7 +62,27 @@ footer a{
 
 .details {
   color: #FCFAE1;
-  background-color: #BD8D46
+  background-color: #BD8D46;
+  float: right;
+  padding: 5px 10px;
+}
+
+.school img{
+  float: left;
+}
+
+.school h3{
+  margin: 0 0 0 120px;
+}
+
+.school h4{
+  font-size: 14pt;
+  font-weight: lighter;
+  margin: 0 0 0 120px;
+}
+
+.school ul{
+  margin: 0 0 0 120px;
 }
 
 body {
@@ -81,6 +105,58 @@ h2{
   line-height: 22pt;
   font-weight: lighter;
   font-style: italic;
+}
+
+h3{
+  font-size: 24pt;
+  font-weight: lighter;
+  margin: 0;
+}
+
+
+.experience, .school{
+  border-left: 10px solid #4C1B1B;
+  border-top: 1px dashed #4C1B1B;
+  border-right: 1px dashed #4C1B1B;
+  border-bottom: 1px dashed #4C1B1B;
+  margin: 20px;
+  padding: 5px 10px;
+  overflow: auto;
+}
+
+.experience h4{
+  font-size: 18pt;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.experience .title{
+  font-size: 12pt;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.experience .dates{
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+
+.experience .description{
+  font-size: 11pt;
+}
+
+.experience ul{
+  margin: 0;
+}
+
+.experience .responsibilities{
+  font-size: 10pt;
+  -webkit-column-count: 2;
+  -moz-column-count:2;
+  column-count:2
 }
 
 
